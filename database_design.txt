@@ -1,0 +1,57 @@
+Database Name: amarbus
+Number of Table: 3
+
+------List of the Table------
+
+1. user_info
+
+columns:
+    i. nid  [PRIMARY KEY]
+    ii. name
+    iii. mobile
+    iv. email
+    v. password
+
+
+2. bus_info
+
+columns: 
+    i. name
+    ii. model
+    iii. bType
+    iv. class
+    v. coachNo
+    vi. regNum [PRIMARY KEY]
+    vii. jFrom
+    viii. jTo
+    ix. depTime
+    x. arrTime
+    xi. seats
+    xii. price
+
+
+3. purchase_history
+
+columns: 
+    i. purchase_id [PRIMARY KEY]
+    ii. passenger_name
+    ii. passenger_nid       -----> nid [user_info]
+    iii. bus_name
+    iii. bus_regNum         ------> regNum [bus_info]
+    iv. journey_date
+    v. price                --------> price [bus_info]
+    vi. seat_no
+
+
+SQL Join:
+user_info + bus_info + purchase_history
+
+1. Name
+2. Mobile 
+3. Bus Operator
+4. Bus Registration
+5. From
+6. To 
+7. Journey Date
+8. Fare
+9. Seat No

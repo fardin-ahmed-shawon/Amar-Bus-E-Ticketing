@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #31b573;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form a {
+    cursor: pointer;
+    color: #31b573;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    background: #fff;
+    width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+input {
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-bottom: 1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.btn {
+    margin-top: 20px;
+    cursor: pointer;
+    background: #31b573;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background: #349c68;
+}
+
+.bottom-link {
+    margin: 20px 0;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    color: #fff;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 30px;
+}
+footer a {
+    color: #ffffcc;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media only screen and (max-width: 800px) {
+    img {
+        width: 250px;
+    }
+    .login-box {
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    img {
+        width: 200px;
+    }
+    .login-box {
+        width: 400px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    input {
+        font-size: 13px;
+        height: 40px;
+    }
+    form a {
+        font-size: 13px;
+    }
+    .bottom-link {
+        font-size: 13px;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .login-box {
+        width: 320px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    input {
+        font-size: 11px;
+        height: 40px;
+    }
+    form a {
+        font-size: 11px;
+    }
+    .bottom-link {
+        font-size: 11px;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .login-box {
+        width: auto;
+    }
+}

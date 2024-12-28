@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #dff1e8;
+}
+
+/* START NAVBAR AREA */
+nav {
+    background: #31b573;
+    color: #fff;
+    padding: 0 80px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.nav-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    cursor: pointer;
+    width: 100px;
+}
+.active {
+    border-bottom: 3px solid #fff;
+}
+/* END NAVBAR AREA */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.card {
+    overflow-x: auto;
+    background: #fff;
+    width: 1000px;
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    margin-bottom: 30px;
+}
+
+/* SVG */
+.card a {
+    text-decoration: none;
+}
+.card button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card button img {
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+}
+.table td,
+.table th {
+    padding: 15px;
+    border-top: 1px solid #dee2e6;
+}
+
+.btn {
+    margin-bottom: 0;
+    cursor: pointer;
+    background: #31b573;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background: #349c68;
+}
+
+footer {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 30px;
+}
+footer a {
+    color: #288f5b;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1030px) {
+    .card {
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .card {
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .card {
+        width: 700px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .card {
+        width: auto;
+        border-radius: 0px;
+    }
+}
