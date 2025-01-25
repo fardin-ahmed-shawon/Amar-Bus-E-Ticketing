@@ -1,6 +1,6 @@
 'AMAR BUS' is an e-ticketing web application which I made. Basically, this is a simple online ticket booking system. The application facilitates online bus ticket booking for users and provides a robust management system for administrators. 
 This report elaborates on the system's features, backend SQL functionalities, and database structure.
-
+<be>
  Features Description:
  User Features:
  1. User Registration: Users can create an account by providing their
@@ -17,6 +17,7 @@ This report elaborates on the system's features, backend SQL functionalities, an
  7. Feedback Submission: Users can send messages or feedback to
  administrators.
 
+<be>
  Admin Features:
  1.Admin Authentication: Secure login and logout for administrators.
  2. AdminDashboard: Acentral hub for managing the system.
@@ -27,6 +28,7 @@ This report elaborates on the system's features, backend SQL functionalities, an
  seat details.
  7. Cancel Booking: Cancel any ticket booking if required.
 
+<be>
 Backend SQL andDescription:
 Database Operations:
  1.Create Table: Utilized 5 times to define the database schema.
@@ -37,8 +39,10 @@ Database Operations:
  6. SQLJoin (Self Join): Implemented 2 times for data retrieval across related
  tables.
 
+<br>
 Language Used:HTML,CSS,JavaScript, PHP &MySQL
 
+<br>
 This e-ticketing application provides a comprehensive solution for managing
  bus ticket bookings. With a user-friendly interface and robust backend, the
  system ensures seamless operations for both users and administrators. The use
