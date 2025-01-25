@@ -159,12 +159,12 @@
 <script>
     var ind = localStorage.getItem('sidebar-show');
     if (ind != 1) {
-        window.location.href = "http://localhost/test/E-Ticketing/login.php";
+        window.location.href = "login.php";
     }
     
     function clearLocalStorage() {
         localStorage.clear();
-        window.location.href = "http://localhost/test/E-Ticketing/home.php";
+        window.location.href = "home.php";
     }
 
     // Get total ticket and price value
@@ -199,7 +199,7 @@
                 .then(data => {
                     if (data.success) {
                         alert('Seats booked successfully!');
-                        window.location.href = "http://localhost/test/E-Ticketing/home.php";
+                        window.location.href = "home.php";
                     } else {
                         alert('Failed to book seats.');
                     }

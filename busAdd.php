@@ -119,7 +119,7 @@ if ($submit) {
             const em = document.getElementById('msg');
             em.innerHTML = "Bus Registration Successful...";
         </script>
-        <META HTTP-EQUIV="Refresh" CONTENT="1; URL=http://localhost/test/E-Ticketing/adminHome.php">
+        <META HTTP-EQUIV="Refresh" CONTENT="1; URL=adminHome.php">
         <?php
     } else {
         ?>

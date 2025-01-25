@@ -36,6 +36,7 @@
                         <th>Phone Number</th>
                         <th>Email</th>
                         <th>NID No</th>
+                        <th>Action</th>
                     </tr>
                     <?php
                     error_reporting(0);
@@ -54,6 +55,9 @@
                                     <td>$result[mobile]</td>
                                     <td>$result[email]</td>
                                     <td>$result[nid]</td>
+                                    <td>
+                                        <a onclick='return checkDelete()' class='btn' href='deleteUser.php?ui=$result[nid]'>Remove User</a>
+                                    </td>
                                 </tr>
                             ";
                         }
@@ -66,6 +70,12 @@
 </section>
 
 <footer>Copyright © 2024<a href="https://www.linkedin.com/in/fardin-ahmed-shawon-9397361bb/" target="_blank">Fardin Ahmed Shawon.</a>All Rights Reserved.</footer>
+
+<script>
+    function checkDelete() {
+        return confirm('Are you sure you want to remove this data?');
+    }
+</script>
 
 </body>
 </html>

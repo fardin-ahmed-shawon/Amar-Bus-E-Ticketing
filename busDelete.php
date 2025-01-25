@@ -13,7 +13,7 @@ $data = mysqli_query($con, $sql);
 
 if ($data) {
     ?>
-    <META HTTP-EQUIV="Refresh" CONTENT="0; URL=http://localhost/test/E-Ticketing/busEditDelete.php">
+    <META HTTP-EQUIV="Refresh" CONTENT="0; URL=busEditDelete.php">
     <?php
 }
 

@@ -60,7 +60,7 @@ if ($submit) {
                     const em = document.getElementById('msg');
                     em.innerHTML = "Successfully Login...";
                 </script>
-                <META HTTP-EQUIV="Refresh" CONTENT="1;URL=http://localhost/test/E-Ticketing/adminHome.php">
+                <META HTTP-EQUIV="Refresh" CONTENT="1;URL=adminHome.php">
                 <?php
             } else {
                 ?>

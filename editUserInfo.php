@@ -79,7 +79,7 @@
 <script>
     var ind = localStorage.getItem('sidebar-show');
         if (ind != 1) {
-            window.location.href = "http://localhost/test/E-Ticketing/login.php";
+            window.location.href = "login.php";
         }
 </script>
 </body>
@@ -117,7 +117,7 @@ if ($submit) {
                 const em = document.getElementById('msg');
                 em.innerHTML = "Successfully Updated...";
             </script>
-            <META HTTP-EQUIV="Refresh" CONTENT="1; URL=http://localhost/test/E-Ticketing/profile.php">
+            <META HTTP-EQUIV="Refresh" CONTENT="1; URL=profile.php">
             <?php
         } else {
             ?>

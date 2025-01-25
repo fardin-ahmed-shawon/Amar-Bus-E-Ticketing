@@ -173,7 +173,7 @@
 
     function clearLocalStorage() {
         localStorage.clear();
-        window.location.href = "http://localhost/test/E-Ticketing/home.php";
+        window.location.href = "home.php";
     }
 </script>
 <script src="main.js"></script>

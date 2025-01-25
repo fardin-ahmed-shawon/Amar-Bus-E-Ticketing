@@ -66,7 +66,7 @@ if ($submit) {
                 const em = document.getElementById('msg');
                 em.innerHTML = "Password Updated...";
             </script>
-            <META HTTP-EQUIV="Refresh" CONTENT="1; URL=http://localhost/test/E-Ticketing/profile.php">
+            <META HTTP-EQUIV="Refresh" CONTENT="1; URL=profile.php">
             <?php
         } else {
             ?>

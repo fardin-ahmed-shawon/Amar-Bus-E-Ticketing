@@ -86,7 +86,7 @@ if ($_POST['submit']) {
                 const em = document.getElementById('incorrect-msg');
                 em.innerHTML = "Registration Successful...";
             </script>
-            <META HTTP-EQUIV="Refresh" CONTENT="1; URL=http://localhost/test/E-Ticketing/login.php">
+            <META HTTP-EQUIV="Refresh" CONTENT="1; URL=login.php">
             <?php
         } else {
             ?>

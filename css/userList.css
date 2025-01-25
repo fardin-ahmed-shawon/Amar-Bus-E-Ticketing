@@ -72,6 +72,10 @@ hr {
 .table tr:nth-child(odd){
     background-color: #f2f2f2;
 }
+.table th:last-child,
+.table td:last-child {
+    text-align: center;
+}
 .table tr:hover {
     background-color: #ddd;
 }
@@ -84,7 +88,6 @@ hr {
     outline: none;
     border: none;
     font-size: 17px;
-    width: 100%;
     padding: 10px;
     border-radius: 6px;
 }

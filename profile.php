@@ -168,12 +168,12 @@
 <script>
     var ind = localStorage.getItem('sidebar-show');
     if (ind != 1) {
-        window.location.href = "http://localhost/test/E-Ticketing/login.php";
+        window.location.href = "login.php";
     }
 
     function clearLocalStorage() {
         localStorage.clear();
-        window.location.href = "http://localhost/test/E-Ticketing/home.php";
+        window.location.href = "home.php";
     }
 </script>
 <script src="main.js"></script>

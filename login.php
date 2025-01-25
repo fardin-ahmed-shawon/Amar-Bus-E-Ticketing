@@ -85,7 +85,7 @@ if ($submit) {
                 <?php
             } else {
                 ?>
-                <META HTTP-EQUIV="Refresh" CONTENT="1;URL=http://localhost/test/E-Ticketing/home.php?">
+                <META HTTP-EQUIV="Refresh" CONTENT="1;URL=home.php?">
                 <?php
                 // creating session variable for using these data into another pages
                 session_start();

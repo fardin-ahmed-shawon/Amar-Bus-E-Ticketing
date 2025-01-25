@@ -215,7 +215,7 @@
 
     function clearLocalStorage() {
         localStorage.clear();
-        window.location.href = "http://localhost/test/E-Ticketing/home.php";
+        window.location.href = "home.php";
     }
 </script>
 <script src="main.js"></script>
@@ -238,7 +238,7 @@ $_SESSION['date'] = $date;
 if ($submit) {
     if ($from != "" && $to != "" && $date != "") {
         ?>
-        <META HTTP-EQUIV="Refresh" CONTENT="0;URL=http://localhost/test/E-Ticketing/tripSelection.php?">
+        <META HTTP-EQUIV="Refresh" CONTENT="0;URL=tripSelection.php?">
         <?php
     } else {
         ?>

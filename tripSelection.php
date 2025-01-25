@@ -244,15 +244,15 @@
     }
     function checkLogin() {
         if (ind == 1) {
-            window.location.href = "http://localhost/test/E-Ticketing/seatSelection.php";
+            window.location.href = "seatSelection.php";
         } else {
-            window.location.href = "http://localhost/test/E-Ticketing/login.php";
+            window.location.href = "login.php";
         }
     }
 
     function clearLocalStorage() {
         localStorage.clear();
-        window.location.href = "http://localhost/test/E-Ticketing/home.php";
+        window.location.href = "home.php";
     }
 
 </script>

@@ -284,12 +284,12 @@ error_reporting(0);
 <script>
     var ind = localStorage.getItem('sidebar-show');
     if (ind != 1) {
-        window.location.href = "http://localhost/test/E-Ticketing/login.php";
+        window.location.href = "login.php";
     }
 
     function clearLocalStorage() {
         localStorage.clear();
-        window.location.href = "http://localhost/test/E-Ticketing/home.php";
+        window.location.href = "home.php";
     }
 
 
@@ -335,7 +335,7 @@ error_reporting(0);
     var msgBox = document.getElementById('incorrect-msg');
     function checkSelection() {
         if (count.innerText >= 1) {
-            window.location.href = "http://localhost/test/E-Ticketing/booking.php";
+            window.location.href = "booking.php";
 
             // Set 'seat_list' array into the local storage
             localStorage.setItem('seat_List', JSON.stringify(seat_list));
